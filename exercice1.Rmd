@@ -1,0 +1,31 @@
+---
+title: "Cours R Exercice 1"
+author: "khadija"
+date: "01/02/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## exercice1
+Créer le vecteur nommé mon_vecteur qui contient les éléménes 1,2,0.5 et "mon nom".
+
+Quel est le type de mon_vecteur. Pourquoi il est de ce type?
+Créer un vecteur nommé logique qui contient les éléménts suivant TRUE, FALSE,TRUE.
+2. exécuter la commande sum(logique). Y'a t-il une explication à ce résultat?
+
+qu'apelle t-on règle de coersion en R?
+```{r}
+rm(list=ls())
+mon_vecteur=c(1,2,0,5,"mon_nom")
+#type_de_mon_vecteur
+typeof(mon_vecteur)
+mon_vecteur
+#un_vecteur_logic
+logique=c(TRUE,FALSE,T)
+logique
+sum((logique))
+ 
+```

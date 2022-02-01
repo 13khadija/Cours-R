@@ -1,0 +1,9 @@
+rm(list=ls())
+mon_vecteur=c(1,2,0,5,"mon_nom")
+#type_de_mon_vecteur
+typeof(mon_vecteur)
+mon_vecteur
+#un_vecteur_logic
+logique=c(TRUE,FALSE,T)
+logique
+sum((logique))
